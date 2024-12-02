@@ -16,14 +16,18 @@ Características
 *Generación de Facturas: Creación de facturas electrónicas en formato PDF con los detalles de la venta.
 
 Requisitos
+*XAMPP (para ejecutar el servidor PHP y MySQL localmente)
 *PHP 7.0 o superior
 *MySQL 5.7 o superior
 *Composer (para la instalación de dependencias como DOMPDF)
 
 Instalación
-*Descarga el proyecto.
+*Descargar el proyecto.
 *Instala las dependencias utilizando Composer:
 composer install
+*instalar Dompdf,biblioteca PHP que permite convertir HTML a PDF
+Instala Dompdf usando Composer: 
+composer require dompdf/dompdf
 *Configura la base de datos:
 Crea una base de datos llamada caja_registradora.
 Importa el archivo db.sql ubicado en la raíz del proyecto para crear las tablas necesarias.
