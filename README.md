@@ -2,7 +2,9 @@ Proyecto: Caja Registradora
 
 
 **Descripción**
-Este proyecto es un sistema de Caja Registradora desarrollado en PHP con MySQL. El sistema está diseñado para gestionar clientes, productos y ventas. Permite realizar las siguientes. operaciones:
+Este proyecto es un sistema de Caja Registradora desarrollado en PHP con MySQL. El sistema está diseñado para gestionar clientes, productos y ventas. 
+
+Permite realizar las siguientes operaciones:
 
 
 *Registrar clientes (naturales o jurídicos).
