@@ -45,7 +45,7 @@ Este sistema está diseñado para facilitar la gestión de ventas e inventarios 
 **Instalación**
 
 
-* Descargar el proyecto.
+* Descargar el proyecto. se debe descomprimir cada una de las carpetas
 
 * Instala las dependencias utilizando Composer:
 
