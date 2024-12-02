@@ -8,55 +8,55 @@ Este proyecto es un sistema de Caja Registradora desarrollado en PHP con MySQL. 
 
 Permite realizar las siguientes operaciones:
 
-*Registrar clientes (naturales o jurídicos).
+* Registrar clientes (naturales o jurídicos).
 
-*Registrar productos con su respectiva información (nombre, precio, cantidad, código).
+* Registrar productos con su respectiva información (nombre, precio, cantidad, código).
 
-*Realizar ventas, generando detalles y actualizando el inventario de productos.
+* Realizar ventas, generando detalles y actualizando el inventario de productos.
 
-*Generación de facturas electrónicas en formato PDF para cada venta realizada.
+* Generación de facturas electrónicas en formato PDF para cada venta realizada.
 Este sistema está diseñado para facilitar la gestión de ventas e inventarios de una tienda o negocio.
 
 **Características**
 
 
-*Gestión de Clientes: Añadir, listar y editar clientes.
+* Gestión de Clientes: Añadir, listar y editar clientes.
 
-*Gestión de Productos: Añadir, listar, editar y gestionar el inventario de productos.
+* Gestión de Productos: Añadir, listar, editar y gestionar el inventario de productos.
 
-*Gestión de Ventas: Realizar ventas, mostrar detalles de las ventas y generar facturas electrónicas.
+* Gestión de Ventas: Realizar ventas, mostrar detalles de las ventas y generar facturas electrónicas.
 
-*Interfaz de Usuario: Usando Bootstrap 5 para una interfaz amigable y responsiva.
+* Interfaz de Usuario: Usando Bootstrap 5 para una interfaz amigable y responsiva.
 
-*Generación de Facturas: Creación de facturas electrónicas en formato PDF con los detalles de la venta.
+* Generación de Facturas: Creación de facturas electrónicas en formato PDF con los detalles de la venta.
 
 **Requisitos**
 
 
-*XAMPP (para ejecutar el servidor PHP y MySQL localmente)
+* XAMPP (para ejecutar el servidor PHP y MySQL localmente)
 
-*PHP 7.0 o superior
+* PHP 7.0 o superior
 
-*MySQL 5.7 o superior
+* MySQL 5.7 o superior
 
-*Composer (para la instalación de dependencias como DOMPDF)
+* Composer (para la instalación de dependencias como DOMPDF)
 
 
 **Instalación**
 
 
-*Descargar el proyecto.
+* Descargar el proyecto.
 
-*Instala las dependencias utilizando Composer:
+* Instala las dependencias utilizando Composer:
 
 composer install
-*instalar Dompdf,biblioteca PHP que permite convertir HTML a PDF
+* instalar Dompdf,biblioteca PHP que permite convertir HTML a PDF
 
 Instala Dompdf usando Composer: 
 
 composer require dompdf/dompdf
 
-*Configura la base de datos:
+* Configura la base de datos:
 
 Crea una base de datos llamada caja_registradora.
 
@@ -84,39 +84,39 @@ http://localhost/caja_registradora/
 **Gestión de Clientes**
 
 
-*Registra clientes, ya sea naturales o jurídicos, con su nombre, cédula o NIT y tipo de cliente.
+* Registra clientes, ya sea naturales o jurídicos, con su nombre, cédula o NIT y tipo de cliente.
 
-*Puedes visualizar, editar y gestionar la información de los clientes desde el panel de administración.
+* Puedes visualizar, editar y gestionar la información de los clientes desde el panel de administración.
 
 
 **Gestión de Productos**
 
 
-*Registra productos con su nombre, precio, cantidad en stock y código de producto.
+* Registra productos con su nombre, precio, cantidad en stock y código de producto.
 
-*Puedes gestionar el inventario y editar productos según sea necesario.
+* Puedes gestionar el inventario y editar productos según sea necesario.
 
 
 **Gestión de Ventas**
 
 
-*Realiza ventas seleccionando productos, la cantidad y el cliente correspondiente.
+* Realiza ventas seleccionando productos, la cantidad y el cliente correspondiente.
 
-*El sistema calcula automáticamente el total de la venta, incluyendo el IVA.
+* El sistema calcula automáticamente el total de la venta, incluyendo el IVA.
 
-*Genera facturas electrónicas en formato PDF con todos los detalles de la venta, que se pueden imprimir o enviar por correo.
+* Genera facturas electrónicas en formato PDF con todos los detalles de la venta, que se pueden imprimir o enviar por correo.
 
 
 **Funcionalidades de la Aplicación**
 
 
-*Registrar ventas con IVA calculado automáticamente.
+* Registrar ventas con IVA calculado automáticamente.
 
-*Generar facturas electrónicas en PDF para cada venta realizada.
+* Generar facturas electrónicas en PDF para cada venta realizada.
 
-*Actualizar inventario después de cada venta.
+* Actualizar inventario después de cada venta.
 
-*Interfaz web para gestionar clientes, productos y ventas de forma sencilla y rápida.
+* Interfaz web para gestionar clientes, productos y ventas de forma sencilla y rápida.
 
 
 **Estructura del Proyecto**
