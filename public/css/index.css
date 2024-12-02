@@ -1,0 +1,33 @@
+.container {
+    max-width: 1200px;
+}
+
+.btn-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+/* Aplicar estilos específicos para activar dropdown con hover */
+.navbar .dropdown:hover > .dropdown-menu {
+    display: block;
+    margin-top: 0; /* Elimina cualquier separación entre el elemento principal y el menú desplegable */
+}
+
+.navbar .dropdown-menu {
+    transition: opacity 0.3s ease, visibility 0.3s ease; /* Suaviza el despliegue */
+    opacity: 0; /* Inicialmente oculto */
+    visibility: hidden;
+}
+
+.navbar .dropdown:hover > .dropdown-menu {
+    opacity: 1; /* Visible al pasar el mouse */
+    visibility: visible;
+}
+
+/* Ajuste para evitar movimiento brusco al abrir los menús */
+.navbar .dropdown-menu {
+    margin-top: 0;
+}

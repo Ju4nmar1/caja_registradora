@@ -1,0 +1,44 @@
+/* Ajustes generales para pantallas pequeñas */
+@media (max-width: 768px) {
+    /* Tablas */
+    .table-responsive {
+        overflow-x: auto;
+    }
+
+    /* Formularios */
+    .form-control,
+    .form-select {
+        font-size: 14px;
+    }
+
+    /* Botones */
+    .btn {
+        font-size: 14px;
+        width: 100%; /* Ocupan todo el ancho en pantallas pequeñas */
+    }
+
+    /* Margen y padding */
+    .container {
+        padding: 10px;
+    }
+}
+
+/* Ajustes para pantallas extra pequeñas */
+@media (max-width: 576px) {
+    h1, h2, h3, h4 {
+        font-size: 18px; /* Tamaños de fuente más pequeños */
+    }
+
+    .navbar-brand {
+        font-size: 16px;
+    }
+
+    .btn-lg {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .table {
+        font-size: 12px;
+    }
+}
