@@ -17,20 +17,39 @@ Permite realizar las siguientes operaciones:
 
 
 *Generación de facturas electrónicas en formato PDF para cada venta realizada.
-
 Este sistema está diseñado para facilitar la gestión de ventas e inventarios de una tienda o negocio.
 
+
 **Características**
+
+
 *Gestión de Clientes: Añadir, listar y editar clientes.
+
+
 *Gestión de Productos: Añadir, listar, editar y gestionar el inventario de productos.
+
+
 *Gestión de Ventas: Realizar ventas, mostrar detalles de las ventas y generar facturas electrónicas.
+
+
 *Interfaz de Usuario: Usando Bootstrap 5 para una interfaz amigable y responsiva.
+
+
 *Generación de Facturas: Creación de facturas electrónicas en formato PDF con los detalles de la venta.
 
+
 **Requisitos**
+
+
 *XAMPP (para ejecutar el servidor PHP y MySQL localmente)
+
+
 *PHP 7.0 o superior
+
+
 *MySQL 5.7 o superior
+
+
 *Composer (para la instalación de dependencias como DOMPDF)
 
 **Instalación**
